@@ -12,7 +12,7 @@
     "firebase-admin": "~5.8.1",
     "firebase-functions": "^0.8.1",
     "node-mailer": "^0.1.1",
-    "nodemailer": "^4.6.0"
+    "nodemailer": "^6.2.1"
   },
   "private": true
 }
