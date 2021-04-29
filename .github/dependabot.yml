@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nodemailer
+    versions:
+    - 6.4.17
+    - 6.4.18
+    - 6.5.0
+  - dependency-name: firebase-functions
+    versions:
+    - 3.13.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
